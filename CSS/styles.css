@@ -13,10 +13,10 @@ main{
     width: 1400px;
     height: 700px;
     border-style: double;
-    padding: 50px 250px;
+    padding: 50px 200px;
 }
 .logo{
-    margin: 0 315px;
+    margin: 0 375px;
     width: 250px;
 }
 hr{
@@ -27,11 +27,13 @@ hr{
 }
 .tool-bar{
     display: inline-block;
-    margin: 10px;
     font-family: 'Roboto Slab', serif;
     font-weight: bold;
     font-size: 20px;
     letter-spacing: 3px;
+    width: 160px;
+    text-align: center;
+
     
 
 
@@ -53,7 +55,7 @@ hr{
     text-align: center;
     letter-spacing: 3px;
 }
-.d-flex{
+/* .d-flex{
     display: flex;
 }
 .justify-content-between{
@@ -61,4 +63,7 @@ hr{
 }
 .justify-content-center{
     justify-content: center;
+} */
+.tool-bar-spacing{
+    margin: 10px 20px 10px 10px;
 }
